@@ -26,3 +26,6 @@ CREATE TABLE program (
   category_id INT UNSIGNED NOT NULL,
   FOREIGN KEY (category_id) REFERENCES category(id)
 );
+
+INSERT INTO category (name) VALUES ('Science-Fiction');
+INSERT INTO category (name) VALUES ('Comédie');
